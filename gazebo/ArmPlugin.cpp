@@ -173,7 +173,6 @@ bool ArmPlugin::createAgent()
 			OPTIMIZER, LEARNING_RATE, REPLAY_MEMORY, BATCH_SIZE,
 			GAMMA, EPS_START, EPS_END, EPS_DECAY,
 			USE_LSTM, LSTM_SIZE, ALLOW_RANDOM, DEBUG_DQN);
-	//agent = NULL;
 
 	if( !agent )
 	{
